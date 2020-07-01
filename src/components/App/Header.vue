@@ -10,4 +10,10 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+#header {
+  @apply w-full;
+  @apply absolute;
+  @apply top-0;
+}
+</style>
