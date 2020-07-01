@@ -1,0 +1,9 @@
+module.exports = {
+  important: true,
+  purge: false,
+  theme: {
+    extend: {}
+  },
+  variants: {},
+  plugins: []
+};
