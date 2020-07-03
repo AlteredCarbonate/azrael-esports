@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 186 249">
+  <title>plansubmit</title>
+  <g id="e529979a-32e6-4cff-bd62-030c5b345f9c" data-name="Layer 2">
+    <g id="a8c39b28-fc8f-438a-8d21-0de6f53ade33" data-name="Layer 2" opacity="0.57">
+      <rect x="3" y="8" width="180" height="238" rx="4.17" fill="#fff" stroke="#666" stroke-linejoin="round" stroke-width="6"/>
+      <path d="M32,1.5H154a0,0,0,0,1,0,0V8.11A10.39,10.39,0,0,1,143.61,18.5H42.39A10.39,10.39,0,0,1,32,8.11V1.5A0,0,0,0,1,32,1.5Z" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="3"/>
+      <g id="a2900a45-4f03-4948-81a5-20a5f894d642" data-name="Cross">
+        <line x1="39.5" y1="103.5" x2="62.5" y2="126.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="3"/>
+        <line x1="62.5" y1="102.5" x2="39" y2="126" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="3"/>
+      </g>
+      <g id="b8dabf0c-53f4-43bc-a937-0f4d5902ce90" data-name="Cross">
+        <line x1="80.5" y1="60.5" x2="103.5" y2="83.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="3"/>
+        <line x1="103.5" y1="59.5" x2="80" y2="83" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="3"/>
+        <line x1="117.5" y1="175.5" x2="140.5" y2="198.5" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="3"/>
+        <line x1="140.5" y1="174.5" x2="117" y2="198" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="3"/>
+      </g>
+      <g id="ee9f212d-d8e8-414b-99da-31602b65429b" data-name="Marker">
+        <path d="M65.5,177.5a14,14,0,1,1-.17-2.18A14.25,14.25,0,0,1,65.5,177.5Z" fill="none" stroke="#666" stroke-miterlimit="10" stroke-width="3"/>
+        <g>
+          <path d="M132.5,97.5c0,46-28,71-67,78" fill="none" stroke="#666" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+          <polygon points="132.5 79.71 122.25 104.78 132.5 98.83 142.74 104.78 132.5 79.71" fill="#666"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
