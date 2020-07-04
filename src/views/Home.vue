@@ -1,79 +1,12 @@
 <template>
   <div id="home">
-    <div id="section" class="first">
-      <div class="flex mx-5" style="height: 25%;">
-
-        <div class="imageCanvas">
-          <div id="title" class="text-2xl p-2 text-white border-b border-gray-600"
-            style="background-color: var(--darkColor); opacity: 0.65;">
-            <p>APEX LEGENDS</p>
-          </div>
-          <div style="background-color: rgba(0,0,0,.25); color: grey;">
-            <img style="height: 160px; width: 100%;" src="../assets/logo/apex-globalseries.jpg" alt="apex-globalseries">
-
-            <p class="p-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam illo vel harum iure
-              reiciendis, sequi
-              debitis natus deserunt repellat cumque, error similique quae impedit asperiores pariatur possimus nihil
-              ea. Necessitatibus.</p>
-          </div>
-          <button id="default">
-            MORE
-          </button>
-        </div>
-
-        <div class="imageCanvas">
-          <img src="../assets/logo/azrael-logoX512.png" alt="azrael-Logo">
-
-          <button id="highlighted" class="w-full mt-6 shadow-inner">
-            <p class="text-center text-4xl">
-              We want <strong>YOU !</strong>
-            </p>
-          </button>
-        </div>
-
-        <div class="imageCanvas">
-          <div id="title" class="text-2xl p-2 text-white border-b border-gray-600"
-            style="background-color: var(--darkColor); opacity: 0.65;">
-            <p>VALORANT</p>
-          </div>
-          <div style="background-color: rgba(0,0,0,.25); color: grey;">
-            <img class="pt-3" style="height: 160px; width: 100%;" src="../assets/icons/ico_plan.svg"
-              alt="apex-globalseries">
-
-            <p class="p-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam illo vel harum iure
-              reiciendis, sequi
-              debitis natus deserunt repellat cumque, error similique quae impedit asperiores pariatur possimus nihil
-              ea. Necessitatibus.
-            </p>
-          </div>
-          <button id="default">
-            MORE
-          </button>
-        </div>
-      </div>
-    </div>
-    <div id="section" class="second">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ab ipsam
-      quod sed voluptatem dicta explicabo ipsa animi corporis dignissimos.
-      Maiores dolorum recusandae amet culpa rerum mollitia. Dicta, facere
-      voluptas?
-    </div>
-    <div id="section" class="three">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quas
-      nulla ipsum laudantium quisquam explicabo quod quibusdam optio. Minima
-      reprehenderit, aut assumenda dignissimos officia cumque dolorem deleniti
-      accusantium expedita? Provident!
-    </div>
-    <div id="section" class="four">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam culpa sit
-      animi? Sit tempore voluptatem mollitia optio asperiores, aspernatur
-      pariatur laboriosam quia quasi magni doloremque, doloribus veritatis non
-      suscipit ad?
-    </div>
+    <secOne />
+    <secTwo />
+    <secThree />
   </div>
 </template>
 
-<style scoped>
+<style>
   #home,
   #section {
     height: 100vh;
@@ -93,12 +26,8 @@
     scroll-snap-align: start;
   }
 
-  #section:nth-child(0) {
-    @apply bg-gray-800;
-  }
-
   #section:nth-child(1) {
-    @apply bg-gray-700;
+    background-color: var(--backgroundColor);
   }
 
   #section:nth-child(2) {
@@ -117,8 +46,8 @@
   First Section
 */
   #section.first {
-    background-image: url("../assets/background/tile_darkgraph.png");
-    background-size: auto;
+    background-image: url("../assets/background/bg-tile-v6.svg");
+    background-size: 65px;
     background-position: left;
     background-repeat: repeat;
   }
@@ -130,20 +59,31 @@
     height: 100vh;
   }
 
-  #section .imageCanvas:nth-of-type(1) {
+  #section .imageCanvas:nth-of-type(1)>div {
+    @apply shadow-xl;
     color: black;
   }
 
   #section .imageCanvas:nth-of-type(2) {}
 
-  #section .imageCanvas:nth-of-type(3) {
+  #section .imageCanvas:nth-of-type(3)>div {
+    @apply shadow-xl;
     color: black;
   }
 </style>
 
 <script>
+  import secOne from "@/components/App/sections/secOne.vue";
+  import secTwo from "@/components/App/sections/secTwo.vue";
+  import secThree from "@/components/App/sections/secThree.vue";
+
   export default {
     name: "Home",
+    components: {
+      secOne,
+      secTwo,
+      secThree
+    },
     data() {
       return {
         page: 0
