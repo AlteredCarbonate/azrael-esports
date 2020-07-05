@@ -1,6 +1,8 @@
 <template>
   <div id="home">
-    <secOne />
+    <div id="section" class="first">
+      <secOne />
+    </div>
     <secTwo />
     <secThree />
   </div>
@@ -26,14 +28,6 @@
     scroll-snap-align: start;
   }
 
-  #section:nth-child(1) {
-    background-color: var(--backgroundColor);
-  }
-
-  #section:nth-child(2) {
-    @apply bg-gray-600;
-  }
-
   #section:nth-child(3) {
     @apply bg-gray-500;
   }
@@ -50,11 +44,12 @@
     background-size: 65px;
     background-position: left;
     background-repeat: repeat;
+    background-color: var(--backgroundColor);
   }
 
   #section .imageCanvas {
     @apply w-1/3;
-    @apply mx-16;
+    @apply m-auto;
     padding-top: 15vh;
     height: 100vh;
   }
@@ -69,6 +64,17 @@
   #section .imageCanvas:nth-of-type(3)>div {
     @apply shadow-xl;
     color: black;
+  }
+
+  /*
+    Second Section
+  */
+  #section.second {
+    background-color: var(--backgroundColor);
+    background-image: url("../assets/background/tile_darkgrid.png");
+    background-size: 100px;
+    background-position: left;
+    background-repeat: repeat;
   }
 </style>
 
