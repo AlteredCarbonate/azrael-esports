@@ -67,7 +67,6 @@ button#default {
 }
 
 button#highlighted {
-  @apply shadow-xl;
   animation-name: highlight;
   animation-duration: 3s;
   animation-delay: 1s;
@@ -98,15 +97,19 @@ div#apex {
 
 @keyframes highlight {
   0% {
+    box-shadow: none;
     border-width: 1px;
     border-color: transparent;
   }
 
   50% {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0 10px 10px -5px rgba(0, 0, 0, 0.04);
     border-color: white;
   }
 
   100% {
+    box-shadow: none;
     border-width: 1px;
     border-color: transparent;
   }

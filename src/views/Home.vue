@@ -70,6 +70,23 @@
     Second Section
   */
 #section.second {
+  @apply p-4;
+  padding-top: 5vh;
+
+  background-color: var(--backgroundColor);
+  background-image: url("../assets/background/tile_darkgrid.png");
+  background-size: 100px;
+  background-position: left;
+  background-repeat: repeat;
+}
+
+/*
+  Third Section
+*/
+#section.third {
+  @apply p-4;
+  @apply text-white;
+
   background-color: var(--backgroundColor);
   background-image: url("../assets/background/tile_darkgrid.png");
   background-size: 100px;
