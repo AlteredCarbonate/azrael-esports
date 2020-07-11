@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="shadow-xl">
     <div
       id="title"
       class="text-2xl p-2 text-white border-b border-gray-600"

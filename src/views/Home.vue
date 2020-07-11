@@ -55,7 +55,6 @@
 }
 
 #section .imageCanvas:nth-of-type(1) > div {
-  @apply shadow-xl;
   color: black;
 }
 
