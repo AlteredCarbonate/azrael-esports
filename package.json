@@ -13,7 +13,9 @@
     "debounce": "^1.2.0",
     "vue": "^2.6.11",
     "vue-moment": "^4.1.0",
-    "vue-router": "^3.2.0"
+    "vue-router": "^3.2.0",
+    "vue-tilt": "0.0.1",
+    "vue-tilt.js": "^1.1.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",

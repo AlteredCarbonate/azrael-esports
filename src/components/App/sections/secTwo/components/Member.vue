@@ -12,7 +12,11 @@
     <p class="font-thin">
       {{ Desc }}
     </p>
-    <div id="member-media" class="inline-flex w-full pt-2">
+    <div
+      id="member-media"
+      class="inline-flex w-full pt-2"
+      v-tilt="{ reverse: true, perspective: 1200 }"
+    >
       <div v-for="media in Media" :key="media.id" class="m-auto">
         <a :href="media.link">
           <div id="media">
@@ -51,6 +55,7 @@ export default {
 
 <style scoped>
 #memberCanvas {
+  @apply cursor-pointer;
   @apply p-2;
   @apply rounded-lg;
   background-color: rgba(0, 0, 0, 0.4);

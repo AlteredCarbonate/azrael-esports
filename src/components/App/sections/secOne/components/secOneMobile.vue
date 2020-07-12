@@ -6,6 +6,7 @@
         src="../../../../../assets/logo/azrael-logoX512.png"
         alt="azrael-Logo"
         style="width: 50vh;"
+        v-tilt="{ reverse: true, perspective: 1200, speed: 500 }"
       />
 
       <div class="px-10 lg:px-24">

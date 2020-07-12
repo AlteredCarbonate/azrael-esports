@@ -91,6 +91,7 @@ button#default + button#default {
 /*
     Animations
   */
+
 div#apex {
   transition: all 0.2s linear;
 }
@@ -135,7 +136,6 @@ export default {
       copyright: "Azrael Esports © 2020",
       credits: "Ramon Pawlowski"
     };
-  },
-  mounted() {}
+  }
 };
 </script>
