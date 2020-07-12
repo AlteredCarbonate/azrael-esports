@@ -6,6 +6,7 @@
     </div>
     <secTwo />
     <secThree />
+    <Footer />
   </div>
 </template>
 
@@ -102,13 +103,15 @@
 import secOne from "@/components/App/sections/secOne.vue";
 import secTwo from "@/components/App/sections/secTwo.vue";
 import secThree from "@/components/App/sections/secThree.vue";
+import Footer from "@/components/App/Footer.vue";
 
 export default {
   name: "Home",
   components: {
     secOne,
     secTwo,
-    secThree
+    secThree,
+    Footer
   },
   data() {
     return {
@@ -126,7 +129,7 @@ export default {
             const { isIntersecting } = entry;
             if (isIntersecting === true) {
               this.page = 1;
-              console.log(this.page);
+              console.log(`Page: ${this.page}`);
             }
           });
         },
@@ -139,7 +142,7 @@ export default {
             const { isIntersecting } = entry;
             if (isIntersecting === true) {
               this.page = 2;
-              console.log(this.page);
+              console.log(`Page: ${this.page}`);
             }
           });
         },
@@ -152,7 +155,7 @@ export default {
             const { isIntersecting } = entry;
             if (isIntersecting === true) {
               this.page = 3;
-              console.log(this.page);
+              console.log(`Page: ${this.page}`);
             }
           });
         },
@@ -165,7 +168,7 @@ export default {
             const { isIntersecting } = entry;
             if (isIntersecting === true) {
               this.page = 4;
-              console.log(this.page);
+              console.log(`Page: ${this.page}`);
             }
           });
         },

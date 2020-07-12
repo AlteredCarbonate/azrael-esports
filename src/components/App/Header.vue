@@ -3,7 +3,7 @@
     <div class="w-3/3 md:w-2/3 pl-3 text-left uppercase font-semibold pt-1">
       AZRAEL ESPORTS
     </div>
-    <div class="md:hidden border border-r ml-1 sm:ml-4 md:ml-0" />
+    <div class="md:hidden border border-r ml-1 sm:ml-4 md:ml-0 mr-2" />
     <button id="default" class="flex-1" style="background-color: transparent;">
       Media
     </button>
