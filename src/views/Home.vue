@@ -2,6 +2,7 @@
   <div id="home">
     <div id="section" class="first">
       <secOne />
+      <!-- <secOnePart2Mobile /> -->
     </div>
     <secTwo />
     <secThree />
@@ -14,14 +15,17 @@
   height: 100vh;
   width: 100%;
 }
-
+@media (min-width: 640px) {
+  #home {
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(3rem);
+    scroll-snap-type: y mandatory;
+  }
+}
 #home {
   max-height: 100vh;
   overflow-y: scroll;
   border: 1px solid gray;
-  scroll-snap-type: mandatory;
-  scroll-snap-points-y: repeat(3rem);
-  scroll-snap-type: y mandatory;
 }
 
 #section {
@@ -71,7 +75,6 @@
   */
 #section.second {
   @apply p-4;
-  padding-top: 5vh;
 
   background-color: var(--backgroundColor);
   background-image: url("../assets/background/tile_darkgrid.png");

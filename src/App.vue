@@ -132,13 +132,10 @@ export default {
   },
   data() {
     return {
-      title: "Azrael Esports",
       copyright: "Azrael Esports © 2020",
       credits: "Ramon Pawlowski"
     };
   },
-  mounted() {
-    document.title = this.title;
-  }
+  mounted() {}
 };
 </script>

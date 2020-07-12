@@ -6,16 +6,16 @@
     <button id="default" class="flex-1" style="background-color: transparent;">
       Media
     </button>
-    <div class="border border-r mr-2 ml-1" />
+    <!-- <div class="border border-r mr-2 ml-1" /> -->
 
     <button id="default" class="flex-1" style="background-color: transparent;">
       Shop
     </button>
-    <div class="border border-r mr-2 ml-1" />
+    <!-- <div class="border border-r mr-2 ml-1" /> -->
     <button id="default" class="flex-1" style="background-color: transparent;">
       Sponsors
     </button>
-    <div class="border border-r mr-2 ml-1" />
+    <!-- <div class="border border-r mr-2 ml-1" /> -->
 
     <button id="default" class="flex-1" style="background-color: transparent;">
       Partnerships

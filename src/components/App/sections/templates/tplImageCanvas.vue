@@ -1,5 +1,5 @@
 <template>
-  <div class="shadow-xl">
+  <div class="shadow-xl" style="border: 1px solid rgba(40,40,40,.5);">
     <div
       id="title"
       class="text-2xl p-2 text-white border-b border-gray-600"
@@ -24,7 +24,7 @@
 
 <script>
 export default {
-  name: "imageCanvas",
+  name: "tplImageCanvas",
   props: {
     title: String,
     desc: String,
