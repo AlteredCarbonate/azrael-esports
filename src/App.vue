@@ -39,6 +39,24 @@ body,
 }
 
 /*
+  Scrollbar
+*/
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #dfe6e9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b2bec3;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7d868a;
+}
+/*
   Button
 */
 
