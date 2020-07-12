@@ -1,21 +1,20 @@
 <template>
-  <div id="header" class="" style="background-color: rgba(0, 0, 0, .55);">
-    <div class="w-2/3 pl-2 text-left uppercase font-semibold pt-1">
+  <div id="header" style="background-color: rgba(0, 0, 0, .55);">
+    <div class="w-3/3 md:w-2/3 pl-3 text-left uppercase font-semibold pt-1">
       AZRAEL ESPORTS
     </div>
+    <div class="md:hidden border border-r ml-1 sm:ml-4 md:ml-0" />
     <button id="default" class="flex-1" style="background-color: transparent;">
       Media
     </button>
-    <!-- <div class="border border-r mr-2 ml-1" /> -->
 
     <button id="default" class="flex-1" style="background-color: transparent;">
       Shop
     </button>
-    <!-- <div class="border border-r mr-2 ml-1" /> -->
+
     <button id="default" class="flex-1" style="background-color: transparent;">
       Sponsors
     </button>
-    <!-- <div class="border border-r mr-2 ml-1" /> -->
 
     <button id="default" class="flex-1" style="background-color: transparent;">
       Partnerships
@@ -41,5 +40,7 @@ export default {
 
   @apply border-b;
   border-color: rgba(25, 25, 25, 0.25);
+
+  z-index: 2;
 }
 </style>
